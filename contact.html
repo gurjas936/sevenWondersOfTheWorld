@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='css/tabs.css' >
+	<link rel='stylesheet' href='css/pageStyle.css' >
+		<link rel='stylesheet' href='css/form.css' >
+	<script type="text/javascript" src="script/tabs.js"></script>
+	<script type="text/javascript" src="script/wonders.js"></script>
+	<title>Contact Information</title>
+</head>
+<body>
+
+<h1> <a href="home.html"><img src="Multimedia/images/logo.png"></a> Contact Details</h1>
+
+<div class="allTabs">
+
+	<div class="container">
+		<input type="radio" id="address" name="allTabs" checked>
+		<label for="address">Address</label>
+		<div class="tab">
+			<h2>Address</h2>
+			<p>
+				Address: <br>
+				Gurjas Singh: 123, Street 7, Montreal<br>
+				Gurpreet Singh Matharu: 123, Street 7, Montreal<br>
+				Manvir Singh Saggu: 123, Street 7, Montreal<br>
+			</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<input type="radio" id="call" name="allTabs" >
+		<label for="call">Phone Number</label>
+		<div class="tab">
+			<h2>Phone number</h2>
+			<p>
+				Numbers<br>
+				Gurjas Singh: 514-514-5145<br>
+				Gurpreet Singh Matharu: 514-514-5145<br>
+				Manvir Singh Saggu: 514-514-5145  <br>
+			</p>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+		<input type="radio" id="email" name="allTabs" >
+		<label for="email">Email Address</label>
+		<div class="tab">
+			<form method="POST">
+				<h2>Email Address</h2>
+				<p>
+					<label for="cars">Choose a Designer</label>
+
+					<select name="designer" id="designer">
+						<option value="Gurjas">Gurjas Singh</option>
+						<option value="Gurpreet">Gurpreet Singh Matharu</option>
+						<option value="Manvir">Manvir Singh Saggu</option>
+					</select>
+
+					<br>
+					<label for="cars">Choose Topic</label>
+
+					<select name="designer" id="designer">
+						<option value="chichen">Chichen</option>
+						<option value="china">The Great Wall of China</option>
+						<option value="christ">Christ the Redeemer</option>
+						<option value="colosseum">Colosseum</option>
+						<option value="machu">Machu Pichu</option>
+						<option value="petra">Petra</option>
+						<option value="taj">Taj Mahal</option>
+					</select>
+
+					<br>
+					
+						<input id="email-input" type="text" placeholder="E-mail">Enter your Email Address
+						<br>
+						<textarea id="feedback" type="text" placeholder="Enter your Feedback"></textarea>
+						<br>
+						<button type="submit" id="submit-button" onclick="submit()"> Submit</button>
+					
+				</p>
+			</form>
+		</div>
+	</div>
+
+	<div class="container">
+		<input type="radio" id="chat" name="allTabs" >
+		<label for="chat">Chat</label>
+		<div class="tab">
+			<h2>Chat</h2>
+			<p>
+				<label for="cars">Send message to: </label>
+
+				<select name="designer2" id="designer2">
+					<option value="Gurjas">Gurjas Singh</option>
+					<option value="Gurpreet">Gurpreet Singh Matharu</option>
+					<option value="Manvir">Manvir Singh Saggu</option>
+				</select>
+				<br>
+
+				<div id="chatbox"></div>
+	
+				<div id="form">
+					<input name="usermsg" type="text" id="usermsg">
+					<button id="submitmsg" onclick="send()">Send</button>
+				</div>
+			</p>
+		</div>
+	</div>
+
+</div>
+
+
+<section class="imgContainer" style="height: 470px;" id= "details">
+
+
+</section>
+
+
+
+<footer class="footerHome">
+
+	<section>
+		<a href="home.html">Home</a>
+	</section>
+
+	<section><a href="contact.html">Contact</a></div></section>
+	<section><a href="https://www.google.com/">Feedback</a></section>
+	
+
+
+	<div><a href="http://420931va-singh.freecluster.eu/project/home.html">Gurjas Singh, 2101324 </a>&copy;2022 Contibuted = 20%</div>
+	<div><a href="http://420931va-matharu.freecluster.eu/project/home.html">Gurpreet Singh Matharu, 2044551</a> &copy;2022 Contributed = 20%</div>
+	<div><a href="http://420931va-saggu.freecluster.eu/Project/home.html">Manvir Singh Saggu, 2023881 </a>&copy;2022 Contributed = 60%</div>
+
+</footer>
+
+
+</body>
+</html>
