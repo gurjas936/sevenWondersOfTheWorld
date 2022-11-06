@@ -1,0 +1,126 @@
+
+
+
+
+
+
+.allTabs{
+  display: flex ;
+  justify-content: center;
+  background-color: #707b9e;
+  height: 6vh;
+  padding: 25px;
+  margin: 50px  auto;
+  max-width: 2200px;
+}
+
+.allTabs input[type="radio"] {
+  display: none;
+}
+
+.allTabs label{
+  padding: 5px;
+
+ }
+
+ .allTabs label:hover{
+  background: #b6bed7;
+ }
+
+.allTabs .tab{
+  background: #b6bed7;
+  padding: 20px;
+  order: 1;
+  display: none;
+}
+
+.allTabs .tab h2{
+  font-size: 2em;
+}
+
+.allTabs input[type='radio']:checked +label + .tab {
+  display: block;
+}
+
+.allTabs input[type="radio"]:checked + label {
+  background-color: #b6bed7;
+}
+
+.allTabs .tab p {
+  padding: 8px;
+}
+
+.allTabs label {
+  padding-bottom: 8px;
+}
+
+#msg {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+#email-input {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+#feedback {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.container {
+  margin: 20px;
+  margin-top: 7px;
+}
+
+#chatbox {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 300px;
+  width: 530px;
+  border: 1px solid #a7a7a7;
+  overflow: auto;
+  border-radius: 4px;
+  border-bottom: 4px solid #a7a7a7;
+}
+
+#chatbox div {
+  background-color: #b6bed7;
+  color: #000;
+  text-align: left;
+  justify-content: right;
+  border-radius: 5px;
+  display: flex;
+  vertical-align: super;
+  margin: 5px;
+  padding: 5px 10px;
+  width: max-content;
+  margin-left: auto;
+}
+
+
+
+#usermsg {
+  flex: 1;
+  border-radius: 2px;
+  height: 25px;
+  border: 1px solid #000000;
+}
+
+#name {
+  border-radius: 4px;
+  border: 1px solid #00c3ff;
+  padding: 2px 8px;
+}
+
+#submitmsg, #enter{
+  background: #707b9e;
+  border: 2px solid #515972;
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
